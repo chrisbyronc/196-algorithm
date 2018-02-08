@@ -20,9 +20,9 @@ for i in range(0, len(run)):
         if(run[i]['iter'] > longestIter):
             longestIter = run[i]['iter']
             longest = {
-             'number' : run[i]['number'],
-             'palendrome' : run[i]['palendrome'], 
-             'iter' : longestIter
+             'Original Number' : run[i]['number'],
+             'Palendrome' : run[i]['palendrome'], 
+             'Number of Iterations' : longestIter
           }
             
 
