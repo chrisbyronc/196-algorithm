@@ -7,7 +7,7 @@ def one_nine_six_algorithm(a):
             c = str(b)[::-1]
             b += int(c)
             count += 1
-        return { 'number' : a , 'palendrome' : b , 'iter' : count}
+        return { 'number' : a , 'palindrome' : b , 'iter' : count}
 
 run = []
 for x in range(10, 393):
@@ -21,7 +21,7 @@ for i in range(0, len(run)):
             longestIter = run[i]['iter']
             longest = {
              'Original Number' : run[i]['number'],
-             'Palendrome' : run[i]['palendrome'], 
+             'Palindrome' : run[i]['palindrome'], 
              'Number of Iterations' : longestIter
           }
             
